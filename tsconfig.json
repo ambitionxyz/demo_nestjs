@@ -24,6 +24,30 @@
       "@app/base/*": [
         "libs/base/src/*"
       ],
+      "@app/enums": [
+        "libs/enums/src"
+      ],
+      "@app/enums/*": [
+        "libs/enums/src/*"
+      ],
+      "@app/constants": [
+        "libs/constants/src"
+      ],
+      "@app/constants/*": [
+        "libs/constants/src/*"
+      ],
+      "@app/guards": [
+        "libs/guards/src"
+      ],
+      "@app/guards/*": [
+        "libs/guards/src/*"
+      ],
+      "@app/decorators": [
+        "libs/decorators/src"
+      ],
+      "@app/decorators/*": [
+        "libs/decorators/src/*"
+      ],
     }
   }
 }
