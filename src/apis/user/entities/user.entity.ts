@@ -21,6 +21,7 @@ export class UserEntity extends BaseEntity {
 
   @BeforeInsert()
   async beforeInsert() {
+    console.log(await argon2.hash(this.password));
     this.password = await argon2.hash(this.password);
   }
 }
